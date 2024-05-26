@@ -18,7 +18,7 @@ public class Main {
         // Lista de Productos
         List<Producto> productos = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            productos.add(new Producto(i, "Producto" + i, 10.0 * i, "Categoria" + i, "Talla" + i, "Marca" + i, "Color" + i));
+            productos.add(new Producto(i, "Producto1" + i, 10.0 * i, "Categoria A" + i, "Talla m1" + i, "Marca" + i, "Color" + i));
         }
 
         // Lista de Clientes
