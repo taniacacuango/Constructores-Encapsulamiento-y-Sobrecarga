@@ -16,7 +16,7 @@ public class Pedido {
     private Date cntrFechaEntrega;
     private double cntrTotal;
 
-    public Pedido(int id, Cliente cliente, Date fechaPedido, String estado, List<Producto> productos, String direccionPedido, Date fechaEntrega, double total) {
+public Pedido(int id, Cliente cliente, Date fechaPedido, String estado, List<Producto> productos, String direccionPedido, Date fechaEntrega, double total) {
     // Código del constructor
     this.cntrIdPedido = id;
     this.cntrCliente = cliente;
@@ -27,6 +27,7 @@ public class Pedido {
     this.cntrFechaEntrega = fechaEntrega;
     this.cntrTotal = total;
 }
+
 
     // Getters y Setters
     public int getCntrIdPedido() { return cntrIdPedido; }

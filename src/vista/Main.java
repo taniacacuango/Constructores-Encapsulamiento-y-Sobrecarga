@@ -30,8 +30,9 @@ public class Main {
         // Lista de Pedidos
         List<Pedido> pedidos = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            pedidos.add(new Pedido(i, clientes.get(i), new Date(), "Estado" + i, productos, "Direccion" + i, new Date(), 100.0 * i));
-        }      
+    pedidos.add(new Pedido(i, clientes.get(i), new Date(), "Estado" + i, productos, "Direccion" + i, new Date(), 100.0 * i));
+}
+    
 
         // Lista de Formas de Pago
         List<FormaDePago> formasDePago = new ArrayList<>();
@@ -67,4 +68,3 @@ public class Main {
         }
     }
 }
-//Instanciar 10 objetos por cada clase pero utilizando la estructura de datos List 
